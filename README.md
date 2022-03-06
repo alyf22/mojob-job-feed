@@ -53,21 +53,15 @@ npm run serve
 - TreeSelect
 - mojob vue template
 
-## Comments
-
-- It was a fun task, enjoyed it
-- Used Typescript to make the task more challenging to me
-- Even if I didn't get accepted, I enjoyed and learned from this task
-
 ## ⚠️ LOOK HERE BEFORE DELIVERING!
 
 1. Please fill in this section before delivering your project
 
 ```
 I have used node version:
-v12.19.0
+v12.18.3
 I have used npm version:
-v6.14.8
+v6.14.7
 Javascript framework used:
 Vue
 If you did not use the given Vue project template, describe how can we run your code:
@@ -75,7 +69,9 @@ x y z
 Do you have any other comments regarding your deliverable?
 x y z
 Do you have any comments/feedback about the task we gave you?
-x y z
-```
+- It was a fun task, enjoyed it
+- Used Typescript to make the task more challenging to me
+- Even if I didn't get accepted, I enjoyed and learned from this task
 
 2. To deliver your project you can either send us the link to the git project in the Mojob chat or you can send the archived project by email to `bs@mojob.io`.
+```

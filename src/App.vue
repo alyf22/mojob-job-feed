@@ -1,30 +1,33 @@
 <template>
-  <div id="app">
-    <router-view />
+  <v-app>
+    <v-app-bar app color="white" elevation="0">
+      <div class="d-flex align-center">
+        <v-img
+          alt="Mojob Logo"
+          class="shrink mr-2"
+          src="./assets/mojob_logo_on_white.png"
+          width="135"
+          height="50"
+        />
+      </div>
 
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-  </div>
+      <v-spacer></v-spacer>
+    </v-app-bar>
+
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Muli, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-#nav a {
-  font-weight: bold;
-  color: #4f4f4f;
-}
-#nav a.router-link-exact-active {
-  color: #46bbb3;
-}
-</style>
+<script lang="ts">
+import Vue from "vue";
+
+export default Vue.extend({
+  name: "App",
+
+  data: () => ({
+    //
+  }),
+});
+</script>
